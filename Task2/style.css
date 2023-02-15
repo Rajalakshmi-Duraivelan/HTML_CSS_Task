@@ -1,0 +1,40 @@
+.parent{
+    display: grid;
+    height:500px;
+    width:810px;
+    grid-template-rows: 100px 400px;   
+    border:2px solid black;
+    margin: 2px;
+}
+.details{    
+    display:grid;
+    grid-template-columns: 35% 65%;
+    height:350px;
+    width:760px;
+    margin: 25px 25px 25px 25px;
+    border: 2px solid black;
+}
+.details > img{
+    height:250px;
+    width:200px;
+    margin: 50px;
+    border: 2px solid black;
+}   
+.ip{
+    margin: 25px 25px 25px 0px;
+}  
+.ip > input{
+    width:200px;
+}
+table{
+    text-align: right; 
+    height:min-content; 
+    border-spacing: 5px;
+}
+.event{
+    text-align:center ;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+
+}
